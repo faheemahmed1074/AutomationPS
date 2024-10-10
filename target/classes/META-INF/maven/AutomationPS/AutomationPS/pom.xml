@@ -1,0 +1,108 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>AutomationPS</groupId>
+  <artifactId>AutomationPS</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <!-- ExtentReports for reporting -->
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>5.0.9</version>
+    </dependency>
+    
+    <!-- Rest Assured for API testing -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.1.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- Rest Assured JsonPath -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-path</artifactId>
+      <version>5.1.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- JSON parsing library -->
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20220320</version>
+    </dependency>
+    
+    <!-- TestNG for testing framework -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.7.0</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- ScribeJava for OAuth handling -->
+    <dependency>
+      <groupId>com.github.scribejava</groupId>
+      <artifactId>scribejava-apis</artifactId>
+      <version>8.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    
+    <!-- Java Faker for generating test data -->
+    <dependency>
+      <groupId>com.github.javafaker</groupId>
+      <artifactId>javafaker</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    
+    <!-- Rest Assured JSON Schema Validator -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-schema-validator</artifactId>
+      <version>5.1.1</version>
+    </dependency>
+    
+    <!-- Apache POI for Excel handling -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.2</version>
+    </dependency>
+    
+    <!-- Apache POI for handling OOXML (Excel XLSX files) -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.2</version>
+    </dependency>
+  </dependencies>
+  
+  <build>
+    <plugins>
+      <!-- Maven Surefire Plugin for running TestNG tests -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M8</version>
+        <configuration>
+          <includes>
+            <include>**/*Tests.java</include> <!-- Include your test files here -->
+          </includes>
+          <properties>
+            <property>
+              <name>usedefaultlisteners</name>
+              <value>false</value>
+            </property>
+          </properties>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
