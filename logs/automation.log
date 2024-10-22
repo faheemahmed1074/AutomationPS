@@ -1,33 +1,8 @@
-02:47:52.177 [main] WARN  org.testng.xml.TestNGContentHandler - Failed to read [/C:/Users/VenD/Downloads/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///C:/Users/VenD/Downloads/testng-1.0.dtd].
-02:47:52.188 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\VenD\eclipseJDK\AutomationPS\testng.xml] otherwise TestNG may fail or not work as expected.
-02:47:52.913 [main] INFO  api.test.UserTests - **** Creating User *******
-02:47:56.268 [main] INFO  api.test.UserTests - **** User Created *******
-02:47:56.292 [main] INFO  api.test.UserTests - **** Reading User Info *******
-02:47:57.725 [main] INFO  api.test.UserTests - **** Updating User *******
-02:47:58.872 [main] INFO  api.test.UserTests - **** User Updated *******
-02:48:00.079 [main] INFO  api.test.UserTests - **** Deleting User *******
-02:48:01.498 [main] INFO  api.test.UserTests - **** User Deleted *******
-16:00:37.934 [main] WARN  org.testng.xml.TestNGContentHandler - Failed to read [/C:/Users/VenD/Downloads/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///C:/Users/VenD/Downloads/testng-1.0.dtd].
-16:00:37.940 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\VenD\eclipseJDK\AutomationPS\testng.xml] otherwise TestNG may fail or not work as expected.
-16:00:38.487 [main] INFO  api.test.UserTests2 - **** Creating User *******
-16:00:38.511 [main] INFO  api.test.UserTests2 - **** Reading User Info *******
-16:00:38.513 [main] INFO  api.test.UserTests2 - **** Updating User *******
-16:00:38.515 [main] INFO  api.test.UserTests2 - **** Deleting User *******
-16:08:29.520 [main] WARN  org.testng.xml.TestNGContentHandler - Failed to read [/C:/Users/VenD/Downloads/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///C:/Users/VenD/Downloads/testng-1.0.dtd].
-16:08:29.527 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\VenD\eclipseJDK\AutomationPS\testng.xml] otherwise TestNG may fail or not work as expected.
-16:08:30.001 [main] INFO  api.test.UserTests2 - **** Creating User *******
-16:08:32.364 [main] INFO  api.test.UserTests2 - **** User Created *******
-16:08:32.373 [main] INFO  api.test.UserTests2 - **** Reading User Info *******
-16:08:33.351 [main] INFO  api.test.UserTests2 - **** Updating User *******
-16:08:34.332 [main] INFO  api.test.UserTests2 - **** User Updated *******
-16:08:35.404 [main] INFO  api.test.UserTests2 - **** Deleting User *******
-16:08:47.152 [main] INFO  api.test.UserTests2 - **** User Deleted *******
-16:53:40.691 [main] WARN  org.testng.xml.TestNGContentHandler - Failed to read [/C:/Users/VenD/Downloads/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///C:/Users/VenD/Downloads/testng-1.0.dtd].
-16:53:40.696 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\VenD\eclipseJDK\AutomationPS\testng.xml] otherwise TestNG may fail or not work as expected.
-16:53:41.141 [main] INFO  api.test.UserTests2 - **** Creating User *******
-16:53:43.267 [main] INFO  api.test.UserTests2 - **** User Created *******
-16:53:43.275 [main] INFO  api.test.UserTests2 - **** Reading User Info *******
-16:53:44.333 [main] INFO  api.test.UserTests2 - **** Updating User *******
-16:53:45.346 [main] INFO  api.test.UserTests2 - **** User Updated *******
-16:53:46.358 [main] INFO  api.test.UserTests2 - **** Deleting User *******
-16:53:47.385 [main] INFO  api.test.UserTests2 - **** User Deleted *******
+16:14:40.114 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\VenD\eclipseJDK\AutomationPS\testng.xml] otherwise TestNG may fail or not work as expected.
+16:14:41.006 [main] INFO  api.test.UserTests2 - **** Creating User *******
+16:14:44.344 [main] INFO  api.test.UserTests2 - **** User Created *******
+16:14:44.358 [main] INFO  api.test.UserTests2 - **** Reading User Info *******
+16:14:45.464 [main] INFO  api.test.UserTests2 - **** Updating User *******
+16:14:46.705 [main] INFO  api.test.UserTests2 - **** User Updated *******
+16:14:48.139 [main] INFO  api.test.UserTests2 - **** Deleting User *******
+16:14:49.185 [main] INFO  api.test.UserTests2 - **** User Deleted *******
